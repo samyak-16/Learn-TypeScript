@@ -23,7 +23,7 @@ identityFour("Pranika")
 
 interface Bottel {
     brand : string  ; 
-    price : number ; 
+    price : number ;  
     type : string ; 
 }
 
