@@ -60,4 +60,17 @@ console.log(samyak);
     let seatAllocations  : "aisle" | "middle" | "window" ;
     seatAllocations  = "middle" ;
     // seatAllocations = "crew" ; //Error
+
+
+let currentOrder:string|undefined ; 
+    const orders=["12","13","18","20"]
+    for(let order of orders){
+            if(order==="18"){
+            currentOrder = order ;
+            }
+            currentOrder = "smtg" ;
+    }
+
+    console.log(currentOrder);
+    
 export {}

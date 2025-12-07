@@ -36,3 +36,14 @@ pi = 3.14;
 //  pi = 3.145 // Error
 var seatAllocations;
 seatAllocations = "middle";
+// seatAllocations = "crew" ; //Error
+var currentOrder;
+var orders = ["12", "13", "18", "20"];
+for (var _i = 0, orders_1 = orders; _i < orders_1.length; _i++) {
+    var order = orders_1[_i];
+    if (order === "18") {
+        currentOrder = order;
+    }
+    currentOrder = "smtg";
+}
+console.log(currentOrder);
