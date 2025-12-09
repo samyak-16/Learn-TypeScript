@@ -23,3 +23,20 @@ function testUnknown(smtg: unknown) {
 // unknown = “I don’t know, so check first” (safe)
 
 // unknown = a value whose type is not known yet, so TypeScript forces you to check before using it.
+
+//With try-catch block :
+
+try {
+} catch (error) {
+  if (error instanceof Error) {
+    console.log(error.message);
+  } else {
+    console.log('Error :', error);
+  }
+}
+
+// handling unknown data :
+
+const data: unknown = 'chai aur code';
+// const strData : string = data //! Error
+const strData: string = data as string;
