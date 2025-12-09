@@ -62,7 +62,7 @@ console.log(samyak);
     // seatAllocations = "crew" ; //Error
 
 
-let currentOrder:string|undefined ; 
+let currentOrder:string|unde ; 
     const orders=["12","13","18","20"]
     for(let order of orders){
             if(order==="18"){
